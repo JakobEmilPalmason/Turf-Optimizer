@@ -10,11 +10,11 @@ The system has two main parts:
 
 ```mermaid
 flowchart LR
- A[Browser UI<br>(Google Maps + JS)] -->|POST JSON| B(API Gateway)
- B --> C[AWS Lambda<br>turf_optimizer.py]
- C -->|Upload PDF| D[S3 Bucket]
- C -->|Signed URL| B
- B -->|JSON { pdf_url }| A
+    A["Browser UI (Google Maps + JS)"] -->|POST JSON| B["API Gateway"]
+    B --> C["AWS Lambda (turf_optimizer.py)"]
+    C -->|Upload PDF| D["S3 Bucket"]
+    C -->|Signed URL| B
+    B -->|"JSON with pdf_url"| A
 ```
 
 ---
