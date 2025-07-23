@@ -1,0 +1,4 @@
+{
+  "body": "{\"grass_type\":\"Sample 45mm grass\",\"grass_price_isk_per_m2\":5516,\"grass_width_m\":4,\"extras_selected\":[\"Nafn\",\"Sandur\",\"Lim\",\"Limbordi\"],\"extras_detail\":[{\"name\":\"Nafn\",\"unit\":\"Eining\",\"price\":0},{\"name\":\"Sandur\",\"unit\":\"kg\",\"price\":110,\"rate_kg_per_m2\":10,\"total_kg\":54500,\"total_cost_isk\":5995000},{\"name\":\"Lim\",\"unit\":\"m\",\"price\":625},{\"name\":\"Limbordi\",\"unit\":\"m\",\"price\":122}],\"sand_rate_kg_per_m2\":10,\"sand_total_kg\":54500,\"sand_total_cost_isk\":5995000,\"area_m2\":5450,\"coords\":[[0,0],[0,50],[30,20],[70,70],[100,40],[70,0],[40,-30],[-20,-10]]}"
+}
+
